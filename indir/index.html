@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yargıdaş'ı indir</title>
+<meta name="description" content="Yargıdaş App Store ve Google Play'de ücretsiz.">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="Yargıdaş'ı indir">
+<meta property="og:description" content="Yargıdaş App Store ve Google Play'de ücretsiz.">
+<meta property="og:image" content="https://yargidas.com/og.png">
+<meta property="og:site_name" content="Yargıdaş">
+<link rel="icon" type="image/svg+xml" href="../favicon.svg">
+<link rel="stylesheet" href="../site.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="../"><svg viewBox="0 0 1024 1024" aria-hidden="true"><rect width="1024" height="1024" rx="230" fill="#142F51"/><path fill="#F9FAFC" d="M347.592 471.648C465.914 471.648 561.832 567.567 561.832 685.889V861.481H455.269V685.889C455.269 673.288 453.104 661.193 449.127 649.954L292.6 806.482L217.248 731.13L368.196 580.181C361.527 578.889 354.639 578.211 347.592 578.211H172V471.648H347.592Z"/><path fill="#F9FAFC" d="M680.408 549.833C562.086 549.833 466.168 453.914 466.168 335.592V160H572.731V335.592C572.731 348.192 574.896 360.288 578.873 371.526L735.4 214.999L810.752 290.35L659.804 441.3C666.473 442.592 673.361 443.269 680.408 443.269H856V549.833H680.408Z"/></svg><span>Yargıdaş</span></a>
+  <nav><a href="../kullanim-kosullari/">Kullanım Koşulları</a><a href="../gizlilik/">Gizlilik</a><a href="../destek/">Destek</a></nav>
+</header>
+<main><section class="hero">
+  <h1>Yargıdaş'ı indir</h1>
+  <p class="lead">Avukat asistanın cebinde. App Store ve Google Play'de ücretsiz.</p>
+  <p><a class="store" href="https://apps.apple.com/tr/app/id6818918117">App Store'dan indir</a> <a class="store" href="https://play.google.com/store/apps/details?id=com.getmeslektas">Google Play'den indir</a></p>
+</section>
+<script>
+(function () {
+  var ua = navigator.userAgent;
+  var k = (new URLSearchParams(location.search).get("k") || "").replace(/[^a-z0-9_-]/gi, "");
+  if (/android/i.test(ua)) {
+    var r = "utm_source=instagram&utm_medium=reklam" + (k ? "&utm_campaign=" + k : "");
+    location.replace("https://play.google.com/store/apps/details?id=com.getmeslektas&referrer=" + encodeURIComponent(r));
+  } else if (/iphone|ipad|ipod/i.test(ua)) {
+    location.replace("https://apps.apple.com/tr/app/id6818918117");
+  }
+})();
+</script></main>
+<footer class="foot">
+  <p>Yargıdaş · Raci Eren Denizoğlu · <a href="mailto:destek@yargidas.com">destek@yargidas.com</a></p>
+  <p>English: <a href="../terms/">Terms of Use</a> · <a href="../privacy/">Privacy Policy</a></p>
+</footer>
+</body>
+</html>

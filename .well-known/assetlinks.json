@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.getmeslektas",
+      "sha256_cert_fingerprints": [
+        "63:69:8D:C6:C1:A9:B7:0C:E0:05:3A:E1:8C:C1:07:CF:D4:20:62:26:81:F6:13:BE:5A:7F:8B:CA:98:8B:62:D8"
+      ]
+    }
+  }
+]

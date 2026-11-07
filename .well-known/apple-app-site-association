@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "G5YM5G75G3.com.getmeslektas"
+        ],
+        "components": [
+          {
+            "/": "/ilan/*",
+            "comment": "Paylaşılan ilan"
+          }
+        ]
+      }
+    ]
+  }
+}
